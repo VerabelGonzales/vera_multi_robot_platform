@@ -96,3 +96,6 @@
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-56-29.png" alt="S6">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 18.</strong> Simulación gazebo mundo simulado</p>
 <br>
+
+## Video tiktok
+[![Video de ejemplo](https://ruta/a/la/imagen_de_previsualizacion.jpg)](https://vm.tiktok.com/ZGe6F9UuE/ "Video de ejemplo")
