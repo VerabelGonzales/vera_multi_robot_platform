@@ -170,9 +170,46 @@ Este comando lanzará RViz y los nodos de navegación necesarios para interactua
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 18.</strong> Rviz mundo real vista superior</p>
 <br>
 
+### Configuración y Lanzamiento de la Navegación Multirobot en Entornos Reales con ROS
+Para configurar y ejecutar la navegación de un sistema multirobot en entornos reales, sigue estos pasos:
+#### Paso 1: Iniciar Comunicación con Robots Reales
+El primer paso es establecer la comunicación con los robots reales. Abre una terminal y ejecuta:
+```
+    roslaunch vera_mrs all_vera_robots.launch
+```
+Este comando inicia la comunicación serial TCP para WiFi con tres robots distintos:
+
+* robot_1 se conecta a través del puerto TCP 11411.
+* robot_2 se conecta a través del puerto TCP 11412.
+* robot_3 se conecta a través del puerto TCP 11413.
+
+#### Paso 2: Lanzar Configuración de Robots y Estimación de Pose
+A continuación, lanza la configuración de los robots y la estimación de pose. En una nueva terminal, ejecuta:
+```
+    roslaunch vera_mrs all_vera_robots_tf_pose.launch
+```
+Este archivo de lanzamiento realiza lo siguiente:
+
+* Carga las descripciones URDF de cada robot desde archivos 
+  vera_robot_x.urdf.xacro.
+* Ejecuta un nodo de pose_estimation.py que podría estar relacionado con la estimación de la pose de los robots o de algún objeto en el entorno.
+* Inicia nodos robot_state_publisher y joint_state_publisher para cada robot, permitiendo la publicación de su estado y la manipulación de sus articulaciones.
+
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2018-29-30.png" alt="S3">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 19.</strong> Espacio real de trabajo de la plataforma</p>
 <br>
+
+#### Paso 3: Lanzar Navegación del Sistema Multirobot
+Finalmente, para iniciar la navegación del sistema multirobot, ejecuta:
+```
+    roslaunch mrs_navigation_vera vera_robots_ros_world_real.launch
+```
+
+Este comando configura y lanza varios componentes clave para la navegación multirobot:
+
+* Abre RViz si está configurado (open_rviz en true), utilizando la configuración especificada en vera_robots_ros_world.rviz.
+* Inicia servidores de mapas para cada robot y configura transformaciones estáticas entre los marcos de referencia del mapa y el odómetro.
+* Lanza la configuración de move_base para cada robot, incluyendo la configuración de los costmaps y el planificador local, permitiendo a cada robot planificar y ejecutar trayectorias en el entorno.
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2018-30-55.png" alt="S3">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 20.</strong> Rviz mundo real de la plataforma</p>
