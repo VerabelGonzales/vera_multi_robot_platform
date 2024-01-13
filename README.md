@@ -185,17 +185,22 @@ Este comando lanzará RViz y los nodos de navegación necesarios para interactua
 ## Ejercicios Nivel 2
 ### Coordinación Multi-Robot: Formación en Línea Diagonal con Tres Robots Omnidireccionales (Click en el video)
 En el ejercicio, se observa la descripción de una trayectoria diagonal realizada por tres robots. Esta línea diagonal se mantiene constante mientras los robots avanzan a lo largo de su recorrido hasta alcanzar el final de su trayectoria. En este ejercicio se puede ver el seguimiento de lider atraves de la comunicación maestro-esclavo.
+
 [![Ver Video](https://img.youtube.com/vi/ncjI9gKNrXw/0.jpg)](https://www.youtube.com/watch?v=ncjI9gKNrXw)
 ### Coordinación Multi-Robot: Formación en Línea con Tres Robots Omnidireccionales (Click en el video)
 En el ejercicio, se observa la descripción de una trayectoria de linea vertical realizada por tres robots. Esta línea vertical se mantiene constante mientras los robots avanzan a lo largo de su recorrido hasta alcanzar el final de su trayectoria. En este ejercicio se puede ver el seguimiento de lider atraves de la comunicación maestro-esclavo.
+
 [![Ver Video](https://img.youtube.com/vi/EinKM8R_A2A/0.jpg)](https://www.youtube.com/watch?v=EinKM8R_A2A)
 ### Coordinación Multi-Robot: Formación en Triangulo con Tres Robots Omnidireccionales (Click en el video)
 En el ejercicio, se observa la formación de un triángulo realizada por tres robots. En este ejercicio se puede ver el seguimiento de lider atraves de la comunicación maestro-esclavo.
+
 [![Ver Video](https://img.youtube.com/vi/X3KD1b3r-Cs/0.jpg)](https://www.youtube.com/watch?v=X3KD1b3r-Cs)
 ## Ejercicios Nivel 3
 ### Comunicación Multi-Robot: Tres Robots Omnidireccionales Coordinados para Mover un Objeto (Click en el video)
 Este ejercicio demuestra la interacción coordinada entre tres robots para desplazar un objeto. Inicialmente, un robot intenta mover el objeto por sí solo. En caso de no lograrlo, retrocede para buscar la ayuda de un segundo robot. Si ambos, trabajando en conjunto, aún no consiguen desplazar el objeto, retroceden para incorporar a un tercer robot. Finalmente, con la fuerza combinada de los tres, logran mover exitosamente el objeto.
+
 [![Ver Video](https://img.youtube.com/vi/sbU5sWQUMAk/0.jpg)](https://www.youtube.com/watch?v=sbU5sWQUMAk&t=1s)
 ### Colaboración Multi-Robot: Tres Robots Omnidireccionales Trabajando Juntos para Desplazar un Objeto (Click en el video)
 Este ejercicio ilustra la colaboración efectiva de tres robots para desplazar un objeto en línea recta, asegurando que no se produzcan desviaciones. Inicialmente, se observa el desplazamiento del objeto a lo largo del eje 'x'. A continuación, el movimiento se dirige por el eje 'y', seguido de otro desplazamiento a lo largo del eje 'x'. Finalmente, el objeto se mueve una vez más en el eje 'y'. Este patrón demuestra la precisión y la coordinación en el trabajo conjunto de los robots.
+
 [![Ver Video](https://img.youtube.com/vi/lTV28RFhZQM/0.jpg)](https://www.youtube.com/watch?v=lTV28RFhZQM)
