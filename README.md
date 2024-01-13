@@ -155,7 +155,7 @@ Con este comando, se lanzará RViz junto con los nodos necesarios para la navega
 
 ## Video tiktok
 [![Video de ejemplo](https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/triangulo_tiktok.png)](https://vm.tiktok.com/ZGe6F9UuE/ "Video de ejemplo")
-
+[![Ver el video](https://ruta-a-tu-imagen-con-icono-de-youtube.jpg)](https://www.youtube.com/watch?v=X3KD1b3r-Cs)
 ## Ejercicios Nivel 1
 ## Ejercicios Nivel 2
 ### Coordinación Multi-Robot: Formación en Línea Diagonal con Tres Robots Omnidireccionales
