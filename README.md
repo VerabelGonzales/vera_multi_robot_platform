@@ -82,6 +82,6 @@
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-40-39.png" alt="S3">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 15.</strong> Simulación Rviz mundo real vista superior</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 15.</strong> Rviz mundo real vista superior</p>
 <br>
 
