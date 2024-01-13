@@ -41,7 +41,7 @@ Después de clonar el repositorio, regresa al directorio raíz de tu workspace y
 
 ### Paso 6: Listo para Trabajar
 ¡Ya estás listo para comenzar a trabajar con la plataforma! Asegúrate de seguir cualquier instrucción adicional específica del repositorio para ejecutar o desarrollar el proyecto.
-## Diseño del robot en SolidWorks
+## Diseño y partes del robot omnidireccional 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Acople_Motor_II.PNG" alt="Acoples">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 1.</strong> Acoples</p>
 <br>
