@@ -41,7 +41,7 @@
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Partes_Robot_2.png" alt="Tapa frontal del robot">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 8.</strong> Vista perfil del robot</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 8.</strong> Vista frontal del robot</p>
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Partes_Robot_3.png" alt="Tapa frontal del robot">
