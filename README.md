@@ -1,4 +1,19 @@
-# Plataforma robotica educativa para la implementacion de algoritmos relacionados a sistemas multi-robot mobiles 
+# Plataforma robotica educativa para la implementacion de algoritmos relacionados a sistemas multi-robot mobiles
+## Configuración del Workspace en ROS para el Proyecto
+Para trabajar con el proyecto de robótica, necesitarás configurar un workspace en ROS y clonar este repositorio en tu máquina local. Sigue los pasos a continuación para configurarlo correctamente.
+
+### Paso 1: Instalar ROS
+
+Asegúrate de tener instalada la versión correcta de ROS en tu sistema. Para este proyecto, utilizamos ROS Noetic, que es compatible con Ubuntu 20.04. Puedes encontrar las instrucciones de instalación en [ROS Wiki](http://wiki.ros.org/noetic/Installation/Ubuntu).
+
+### Paso 2: Crear un Workspace en ROS
+
+Abre una terminal y ejecuta los siguientes comandos para crear tu workspace de ROS:
+``bash
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/
+catkin_make
+
 ## Diseño del robot en SolidWorks
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Acople_Motor_II.PNG" alt="Acoples">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 1.</strong> Acoples</p>
