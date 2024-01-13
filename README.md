@@ -155,17 +155,16 @@ Con este comando, se lanzará RViz junto con los nodos necesarios para la navega
 
 ## Video tiktok
 [![Video de ejemplo](https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/triangulo_tiktok.png)](https://vm.tiktok.com/ZGe6F9UuE/ "Video de ejemplo")
-[![Ver el video](https://ruta-a-tu-imagen-con-icono-de-youtube.jpg)](https://www.youtube.com/watch?v=X3KD1b3r-Cs)
 ## Ejercicios Nivel 1
 ## Ejercicios Nivel 2
-### Coordinación Multi-Robot: Formación en Línea Diagonal con Tres Robots Omnidireccionales
+### Coordinación Multi-Robot: Formación en Línea Diagonal con Tres Robots Omnidireccionales (Click en el video)
 [![Ver Video](https://img.youtube.com/vi/ncjI9gKNrXw/0.jpg)](https://www.youtube.com/watch?v=ncjI9gKNrXw)
-### Coordinación Multi-Robot: Formación en Línea con Tres Robots Omnidireccionales
+### Coordinación Multi-Robot: Formación en Línea con Tres Robots Omnidireccionales (Click en el video)
 [![Ver Video](https://img.youtube.com/vi/EinKM8R_A2A/0.jpg)](https://www.youtube.com/watch?v=EinKM8R_A2A)
-### Coordinación Multi-Robot: Formación en Triangulo con Tres Robots Omnidireccionales
+### Coordinación Multi-Robot: Formación en Triangulo con Tres Robots Omnidireccionales (Click en el video)
 [![Ver Video](https://img.youtube.com/vi/X3KD1b3r-Cs/0.jpg)](https://www.youtube.com/watch?v=X3KD1b3r-Cs)
 ## Ejercicios Nivel 3
-### Comunicación Multi-Robot: Tres Robots Omnidireccionales Coordinados para Mover un Objeto
+### Comunicación Multi-Robot: Tres Robots Omnidireccionales Coordinados para Mover un Objeto (Click en el video)
 [![Ver Video](https://img.youtube.com/vi/sbU5sWQUMAk/0.jpg)](https://www.youtube.com/watch?v=sbU5sWQUMAk&t=1s)
-### Colaboración Multi-Robot: Tres Robots Omnidireccionales Trabajando Juntos para Desplazar un Objeto
+### Colaboración Multi-Robot: Tres Robots Omnidireccionales Trabajando Juntos para Desplazar un Objeto (Click en el video)
 [![Ver Video](https://img.youtube.com/vi/lTV28RFhZQM/0.jpg)](https://www.youtube.com/watch?v=lTV28RFhZQM)
