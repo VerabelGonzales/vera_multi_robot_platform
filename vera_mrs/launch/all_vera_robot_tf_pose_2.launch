@@ -1,0 +1,33 @@
+<launch>
+  <!-- values passed by command line input -->     
+  <arg name="model" default="dd_robot6.urdf"/>
+
+  <!-- set these parameters on Parameter Server -->
+  <param name="robot_description" textfile="$(find vera_mrs)/urdf/$(arg model)" />
+  
+  <!-- Start 3 nodes: joint_state_publisher, robot_state_publisher and rviz -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/> 
+  
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+  <arg name="ticks_per_meter" value="10621" />
+  <arg name="wheel_separation" value="0.07" />
+  <arg name="wheel_separation_length" value="0.093" />
+
+  <node name="odom_publisher" pkg="vera_mrs" type="mecanum_drive_odometry"
+        output="screen">
+    <rosparam subst_value="true">
+      ticks_per_meter: $(arg ticks_per_meter)
+      wheel_separation: $(arg wheel_separation)
+      wheel_separation_length: $(arg wheel_separation_length)
+    </rosparam>
+  </node>
+
+  <!-- Node for visualizing trajectory from turtlesim -->
+  <node name="robot_trajectory_visualization" pkg="vera_mrs" type="trajectory_visualization.py" output="screen">
+  </node>
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find vera_mrs)/urdf.rviz" required="true" />
+  <!-- (required = "true") if rviz dies, entire roslaunch will be killed -->
+
+</launch>

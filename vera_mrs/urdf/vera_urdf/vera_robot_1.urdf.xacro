@@ -1,0 +1,548 @@
+<?xml version="1.0" ?>
+
+<robot name="vera_robot_1" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find vera_mrs)/urdf/vera_urdf/common_properties.xacro"/>
+  <xacro:include filename="$(find vera_mrs)/urdf/vera_urdf/vera_robot_1.gazebo.xacro"/>
+  
+  <link name="robot_1/base_footprint"/>
+
+  <joint name="robot_1/base_joint" type="fixed">
+    <parent link="robot_1/base_footprint"/>
+    <child link="robot_1/base_link"/>
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  </joint>
+
+  <link
+    name="robot_1/base_link">
+    <inertial>
+      <origin
+        xyz="-0.0017615 -2.1313E-05 0.011083"
+        rpy="0 0 0" />
+      <mass
+        value="0.51645" />
+      <inertia
+        ixx="0.00077045"
+        ixy="7.1983E-08"
+        ixz="6.8848E-06"
+        iyy="0.0019874"
+        iyz="1.7774E-08"
+        izz="0.0026701" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="robot_1/wheel_1_link">
+    <inertial>
+      <origin
+        xyz="-9.6085E-11 1.5807E-10 0.017362"
+        rpy="0 0 0" />
+      <mass
+        value="0.057589" />
+      <inertia
+        ixx="6.2632E-06"
+        ixy="1.371E-16"
+        ixz="2.828E-15"
+        iyy="6.2632E-06"
+        iyz="-9.0828E-16"
+        izz="7.2469E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/wheel_1_link.STL" />
+      </geometry>
+      <material name="darkgray">
+        <color rgba=".2 .2 .2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/wheel_1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robot_1/wheel_1_joint"
+    type="continuous">
+    <origin
+      xyz="0.07 0.1019 0.018"
+      rpy="1.5708 0 0" />
+    <parent
+      link="robot_1/base_link" />
+    <child
+      link="robot_1/wheel_1_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="robot_1/wheel_2_link">
+    <inertial>
+      <origin
+        xyz="-9.6461E-11 1.6651E-10 0.017362"
+        rpy="0 0 0" />
+      <mass
+        value="0.057589" />
+      <inertia
+        ixx="6.2632E-06"
+        ixy="5.3898E-16"
+        ixz="1.1229E-15"
+        iyy="6.2632E-06"
+        iyz="-1.0227E-15"
+        izz="7.2469E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/wheel_2_link.STL" />
+      </geometry>
+      <material name="darkgray">
+        <color rgba=".2 .2 .2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/wheel_2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robot_1/wheel_2_joint"
+    type="continuous">
+    <origin
+      xyz="0.07 -0.0671 0.018"
+      rpy="1.5708 0.058243 0" />
+    <parent
+      link="robot_1/base_link" />
+    <child
+      link="robot_1/wheel_2_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="robot_1/wheel_3_link">
+    <inertial>
+      <origin
+        xyz="-9.6085E-11 1.5807E-10 0.017362"
+        rpy="0 0 0" />
+      <mass
+        value="0.057589" />
+      <inertia
+        ixx="6.2632E-06"
+        ixy="1.3683E-16"
+        ixz="2.8277E-15"
+        iyy="6.2632E-06"
+        iyz="-9.0759E-16"
+        izz="7.2469E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/wheel_3_link.STL" />
+      </geometry>
+      <material name="darkgray">
+        <color rgba=".2 .2 .2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/wheel_3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robot_1/wheel_3_joint"
+    type="continuous">
+    <origin
+      xyz="-0.07 -0.0671 0.018"
+      rpy="1.5708 0 0" />
+    <parent
+      link="robot_1/base_link" />
+    <child
+      link="robot_1/wheel_3_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="robot_1/wheel_4_link">
+    <inertial>
+      <origin
+        xyz="-9.6084E-11 1.5807E-10 0.017362"
+        rpy="0 0 0" />
+      <mass
+        value="0.057589" />
+      <inertia
+        ixx="6.2632E-06"
+        ixy="1.3694E-16"
+        ixz="2.8275E-15"
+        iyy="6.2632E-06"
+        iyz="-9.0789E-16"
+        izz="7.2469E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/wheel_4_link.STL" />
+      </geometry>
+      <material name="darkgray">
+        <color rgba=".2 .2 .2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/wheel_4_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robot_1/wheel_4_joint"
+    type="continuous">
+    <origin
+      xyz="-0.07 0.1019 0.018"
+      rpy="1.5708 0 0" />
+    <parent
+      link="robot_1/base_link" />
+    <child
+      link="robot_1/wheel_4_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="robot_1/tapa_base_link">
+    <inertial>
+      <origin
+        xyz="0.22728 -0.042176 -0.07022"
+        rpy="0 0 0" />
+      <mass
+        value="0.23258" />
+      <inertia
+        ixx="0.00014848"
+        ixy="1.1814E-06"
+        ixz="3.1529E-07"
+        iyy="0.00075121"
+        iyz="-2.1562E-08"
+        izz="0.00061506" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.831372549019608 0.219607843137255 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robot_1/tapa_base_joint"
+    type="fixed">
+    <origin
+      xyz="0.24913 0.070235 0.090722"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="robot_1/base_link" />
+    <child
+      link="robot_1/tapa_base_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="robot_1/tapa_1_link">
+    <inertial>
+      <origin
+        xyz="0.30517 -0.036026 -0.070252"
+        rpy="0 0 0" />
+      <mass
+        value="0.037121" />
+      <inertia
+        ixx="6.1533E-05"
+        ixy="-3.3631E-07"
+        ixz="2.7692E-08"
+        iyy="0.00015418"
+        iyz="2.3296E-09"
+        izz="9.6943E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robot_1/tapa_1_joint"
+    type="fixed">
+    <origin
+      xyz="0.24913 0.070235 0.090722"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="robot_1/base_link" />
+    <child
+      link="robot_1/tapa_1_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="robot_1/tapa_2_link">
+    <inertial>
+      <origin
+        xyz="0.29285 -0.013048 -0.070034"
+        rpy="0 0 0" />
+      <mass
+        value="0.11383" />
+      <inertia
+        ixx="6.4673E-05"
+        ixy="1.8606E-06"
+        ixz="1.2211E-07"
+        iyy="0.00021431"
+        iyz="-3.2681E-07"
+        izz="0.00016007" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robot_1/tapa_2_joint"
+    type="fixed">
+    <origin
+      xyz="0.24913 0.070235 0.090722"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="robot_1/base_link" />
+    <child
+      link="robot_1/tapa_2_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="robot_1/tapa_3_link">
+    <inertial>
+      <origin
+        xyz="0.26176 0.0024264 -0.068982"
+        rpy="0 0 0" />
+      <mass
+        value="0.048629" />
+      <inertia
+        ixx="4.7255E-05"
+        ixy="1.3299E-06"
+        ixz="-1.1147E-06"
+        iyy="0.00021479"
+        iyz="2.182E-07"
+        izz="0.00016985" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robot_1/tapa_3_joint"
+    type="fixed">
+    <origin
+      xyz="0.24913 0.070235 0.090722"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="robot_1/base_link" />
+    <child
+      link="robot_1/tapa_3_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="robot_1/tapa_frontal_link">
+    <inertial>
+      <origin
+        xyz="0.19191 -0.018938 -0.070235"
+        rpy="0 0 0" />
+      <mass
+        value="0.059907" />
+      <inertia
+        ixx="0.00013175"
+        ixy="-9.3954E-06"
+        ixz="-5.3266E-10"
+        iyy="0.00015595"
+        iyz="-5.8446E-10"
+        izz="5.2369E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_frontal_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.831372549019608 0.219607843137255 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://vera_mrs/meshes/vera_real/tapa_frontal_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robot_1/tapa_frontal_joint"
+    type="fixed">
+    <origin
+      xyz="0.24913 0.070235 0.090722"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="robot_1/base_link" />
+    <child
+      link="robot_1/tapa_frontal_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

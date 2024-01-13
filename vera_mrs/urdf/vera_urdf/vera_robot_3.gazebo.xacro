@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<robot name="vera_mrs" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <gazebo reference="robot_3/base_link">
+    <material>Gazebo/LightGrey</material>
+  </gazebo>
+
+  <gazebo reference="robot_3/tapa_base_link">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <gazebo reference="robot_3/tapa_1_link">
+    <material>Gazebo/LightGrey</material>
+  </gazebo>
+
+  <gazebo reference="robot_3/tapa_2_link">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <gazebo reference="robot_3/tapa_3_link">
+    <material>Gazebo/LightGrey</material>
+  </gazebo>
+
+  <gazebo reference="robot_3/tapa_frontal_link">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <gazebo reference="robot_3/wheel_1_link">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>500000.0</kp>
+    <kd>10.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.1</maxVel>
+    <fdir1>1 0 0</fdir1>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+
+  <gazebo reference="robot_3/wheel_2_link">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>500000.0</kp>
+    <kd>10.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.1</maxVel>
+    <fdir1>1 0 0</fdir1>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+
+  <gazebo reference="robot_3/wheel_3_link">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>500000.0</kp>
+    <kd>10.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.1</maxVel>
+    <fdir1>1 0 0</fdir1>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+
+  <gazebo reference="robot_3/wheel_4_link">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>500000.0</kp>
+    <kd>10.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.1</maxVel>
+    <fdir1>1 0 0</fdir1>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  
+  <gazebo>
+    <plugin name="omnidirectional_controller" filename="libgazebo_ros_planar_move.so"> <!-- 3 DOF plugin, (Vx,Vy,Wz) -->
+      <commandTopic>cmd_vel</commandTopic>
+      <odometryTopic>odom</odometryTopic>
+      <odometryFrame>odom</odometryFrame>
+      <odometrySource>world</odometrySource>
+      <publishOdomTF>true</publishOdomTF> <!-- publish the Fixed frame called $(arg robot_ns)/odom, default = true-->
+      <robotBaseFrame>robot_3/base_footprint</robotBaseFrame>
+      <publishTf>true</publishTf>
+      <!-- publishWheelJointState tag is Not used for planar_move plugin -->
+      <legacyMode>false</legacyMode>
+      <odometryRate>50.0</odometryRate>
+    </plugin>
+  </gazebo>
+
+</robot>

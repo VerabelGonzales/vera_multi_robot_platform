@@ -1,0 +1,11 @@
+<launch>
+
+<node pkg="rosserial_python" type="serial_node.py" name="robot_1" args="tcp 11411"/>
+
+<node pkg="rosserial_python" type="serial_node.py" name="robot_2" args="tcp 11412"/>
+
+<node pkg="rosserial_python" type="serial_node.py" name="robot_3" args="tcp 11413"/>
+
+
+</launch>
+
