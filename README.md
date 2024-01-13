@@ -170,6 +170,15 @@ Este comando lanzará RViz y los nodos de navegación necesarios para interactua
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 18.</strong> Rviz mundo real vista superior</p>
 <br>
 
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2018-29-30.png" alt="S3">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 19.</strong> Espacio real de trabajo de la plataforma</p>
+<br>
+
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2018-30-55.png" alt="S3">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 20.</strong> Rviz mundo real de la plataforma</p>
+<br>
+
+
 ## Video tiktok
 [![Video de ejemplo](https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/triangulo_tiktok.png)](https://vm.tiktok.com/ZGe6F9UuE/ "Video de ejemplo")
 ## Ejercicios Nivel 1
