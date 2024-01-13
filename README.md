@@ -22,6 +22,25 @@ Agrega el workspace a tu entorno ROS para que se cargue automáticamente cada ve
   source ~/.bashrc
 
 ```
+
+### Paso 4: Clonar el Repositorio
+Ahora, clona este repositorio dentro del subdirectorio src de tu workspace:
+```
+    cd ~/catkin_ws/src
+    git clone [URL_DEL_REPOSITORIO]
+```
+Reemplaza [URL_DEL_REPOSITORIO] con la URL de este repositorio en GitHub.
+
+### Paso 5: Compilar el Workspace
+Después de clonar el repositorio, regresa al directorio raíz de tu workspace y ejecuta catkin_make para compilar el proyecto:
+```
+    cd ~/catkin_ws
+    catkin_make
+
+```
+
+### Paso 6: Listo para Trabajar
+¡Ya estás listo para comenzar a trabajar con la plataforma! Asegúrate de seguir cualquier instrucción adicional específica del repositorio para ejecutar o desarrollar el proyecto.
 ## Diseño del robot en SolidWorks
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Acople_Motor_II.PNG" alt="Acoples">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 1.</strong> Acoples</p>
