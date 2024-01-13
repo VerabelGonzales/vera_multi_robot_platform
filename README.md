@@ -4,7 +4,7 @@ Para trabajar con el proyecto de robótica, necesitarás configurar un workspace
 
 ### Paso 1: Instalar ROS
 
-Asegúrate de tener instalada la versión correcta de ROS en tu sistema. Para este proyecto, utilizamos ROS Noetic, que es compatible con Ubuntu 20.04. Puedes encontrar las instrucciones de instalación en [ROS Wiki](http://wiki.ros.org/noetic/Installation/Ubuntu).
+Asegúrate de tener instalada la versión correcta de ROS en tu sistema. Para esta plataforma, se esta utilizando ROS Noetic, que es compatible con Ubuntu 20.04. Puedes encontrar las instrucciones de instalación en [ROS Wiki](http://wiki.ros.org/noetic/Installation/Ubuntu).
 
 ### Paso 2: Crear un Workspace en ROS
 
