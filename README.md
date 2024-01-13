@@ -112,6 +112,33 @@ Después de clonar el repositorio, regresa al directorio raíz de tu workspace y
 
 
 ## Simulación mundo real y mundo simulado
+### Lanzamiento de la Simulación en un Mundo Simulado con ROS y Gazebo
+Para iniciar la simulación del mundo virtual con los robots, sigue estos pasos:
+#### Paso 1: Lanzar la Simulación en Gazebo:
+Abre una terminal y ejecuta el siguiente comando para lanzar Gazebo con el mundo simulado:
+```
+roslaunch ros_world vera_robots_world_sim.launch
+```
+Esto abrirá Gazebo con el mundo virtual definido en el archivo vera_robots_world_sim.launch.
+
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-52-09.png" alt="S4">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 16.</strong> Simulación gazebo mundo simulado</p>
+<br>
+
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-55-14.png" alt="S5">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 17.</strong> Rviz mundo simulado</p>
+<br>
+
+#### Paso 2: Iniciar el Nodo de Navegación y RViz:
+En una nueva terminal, ejecuta el siguiente comando para iniciar el nodo de navegación y RViz:
+```
+roslaunch mrs_navigation_vera vera_robots_ros_world_sim.launch
+```
+Con este comando, se lanzará RViz junto con los nodos necesarios para la navegación del robot en el mundo simulado.
+
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-56-29.png" alt="S6">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 18.</strong> Simulación gazebo mundo simulado</p>
+<br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-41-50.png" alt="S1">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 13.</strong> Simulación Gazebo mundo real</p>
@@ -123,18 +150,6 @@ Después de clonar el repositorio, regresa al directorio raíz de tu workspace y
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-40-39.png" alt="S3">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 15.</strong> Rviz mundo real vista superior</p>
-<br>
-
-<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-52-09.png" alt="S4">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 16.</strong> Simulación gazebo mundo simulado</p>
-<br>
-
-<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-55-14.png" alt="S5">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 17.</strong> Rviz mundo simulado</p>
-<br>
-
-<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-56-29.png" alt="S6">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 18.</strong> Simulación gazebo mundo simulado</p>
 <br>
 
 ## Video tiktok
