@@ -1,0 +1,62 @@
+<launch>
+  <arg name="namespace_1" default="robot_1"/>
+  <arg name="model_1" default="1"/>
+  <arg name="x_pos_1" default="-1.5"/>
+  <arg name="y_pos_1" default="0.5"/>
+  <arg name="z_pos_1" default="0.0"/>
+
+  <arg name="namespace_2" default="robot_2"/>
+  <arg name="model_2" default="2"/>
+  <arg name="x_pos_2" default="-1.5"/>
+  <arg name="y_pos_2" default="-0.5"/>
+  <arg name="z_pos_2" default="0.0"/>
+
+  <arg name="namespace_3" default="robot_3"/>
+  <arg name="model_3" default="3"/>
+  <arg name="x_pos_3" default="-1.5"/>
+  <arg name="y_pos_3" default="0.0"/>
+  <arg name="z_pos_3" default="0.0"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find ros_world)/worlds/vera_world.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+  
+  <group ns="$(arg namespace_1)">
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(find vera_mrs)/urdf/vera_urdf/vera_robot_$(arg model_1).urdf.xacro" />
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"  args="-urdf -model vera_robot_$(arg model_1) -x $(arg x_pos_1) -y $(arg y_pos_1) -z $(arg z_pos_1) -param robot_description" />
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+      <param name="publish_frequency" type="double" value="50.0" />
+    </node>
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  </group>
+
+  <group ns="$(arg namespace_2)">
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(find vera_mrs)/urdf/vera_urdf/vera_robot_$(arg model_2).urdf.xacro" />
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"  args="-urdf -model vera_robot_$(arg model_2) -x $(arg x_pos_2) -y $(arg y_pos_2) -z $(arg z_pos_2) -param robot_description" />
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+      <param name="publish_frequency" type="double" value="50.0" />
+    </node>
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  </group>
+
+  <group ns="$(arg namespace_3)">
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(find vera_mrs)/urdf/vera_urdf/vera_robot_$(arg model_3).urdf.xacro" />
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"  args="-urdf -model vera_robot_$(arg model_3) -x $(arg x_pos_3) -y $(arg y_pos_3) -z $(arg z_pos_3) -param robot_description" />
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+      <param name="publish_frequency" type="double" value="50.0" />
+    </node>
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  </group>
+
+</launch>
