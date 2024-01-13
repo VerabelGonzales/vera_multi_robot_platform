@@ -32,4 +32,6 @@
 <p style="margin-top:10px;"><strong>Figura 8.</strong> Tapa frontal del robot</p>
 <br>
 
-<img src="https://
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/Tapa_I.PNG" alt="Tapa lateral del robot">
+<p style="margin-top:10px;"><strong>Figura 9.</strong> Tapa lateral del robot</p>
+<br>
