@@ -37,13 +37,13 @@
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Partes_Robot_1.png" alt="Tapa frontal del robot">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 8.</strong> Vista Isométrica del robot</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 10.</strong> Vista Isométrica del robot</p>
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Partes_Robot_2.png" alt="Tapa frontal del robot">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 8.</strong> Vista frontal del robot</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 11.</strong> Vista frontal del robot</p>
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Partes_Robot_3.png" alt="Tapa frontal del robot">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 8.</strong> Vista lateral del robot</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 12.</strong> Vista lateral del robot</p>
 <br>
