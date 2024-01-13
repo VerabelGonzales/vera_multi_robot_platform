@@ -71,3 +71,17 @@
 ## Video 
 [![Video de ejemplo](http://img.youtube.com/vi/p27skgkG13g/0.jpg)](http://www.youtube.com/watch?v=p27skgkG13g "Video de ejemplo")
 
+## Simulación
+
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-41-50.png" alt="S1">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 13.</strong> Simulación Gazebo mundo real</p>
+<br>
+
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-40-08.png" alt="S2">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 14.</strong> Simulación Gazebo mundo real vista superior</p>
+<br>
+
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-40-39.png" alt="S3">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 14.</strong> Simulación Rviz mundo real vista superior</p>
+<br>
+
