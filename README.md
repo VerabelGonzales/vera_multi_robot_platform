@@ -67,4 +67,3 @@
 | PCB Molex                 | 1        |
 | Tornillos con Tuerca      | 64       |
 | Estructura del robot      | 6        |
-| **TOTAL**                 | **-**    |
