@@ -9,13 +9,19 @@ Asegúrate de tener instalada la versión correcta de ROS en tu sistema. Para es
 ### Paso 2: Crear un Workspace en ROS
 
 Abre una terminal y ejecuta los siguientes comandos para crear tu workspace de ROS:
-bash
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/
-catkin_make
+```
+    $ cd ~/catkin_ws/src
+    $ git clone https://github.com/agilexrobotics/limo_ros.git
+    $ cd ..
+    $ catkin_make
+```
+### Paso 3: Configurar el Entorno ROS
+Agrega el workspace a tu entorno ROS para que se cargue automáticamente cada vez que abras una terminal:
+```
+  echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+  source ~/.bashrc
 
-### Paso 2: Crear un Workspace en ROS
-
+```
 ## Diseño del robot en SolidWorks
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Acople_Motor_II.PNG" alt="Acoples">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 1.</strong> Acoples</p>
