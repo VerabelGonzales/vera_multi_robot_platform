@@ -125,9 +125,10 @@ Esto abrirá Gazebo con el mundo virtual definido en el archivo vera_robots_worl
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 16.</strong> Simulación gazebo mundo simulado</p>
 <br>
 
-<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-55-14.png" alt="S5">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 17.</strong> Rviz mundo simulado</p>
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-56-29.png" alt="S6">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 18.</strong> Simulación gazebo mundo simulado</p>
 <br>
+
 
 #### Paso 2: Iniciar el Nodo de Navegación y RViz:
 En una nueva terminal, ejecuta el siguiente comando para iniciar el nodo de navegación y RViz:
@@ -136,8 +137,8 @@ roslaunch mrs_navigation_vera vera_robots_ros_world_sim.launch
 ```
 Con este comando, se lanzará RViz junto con los nodos necesarios para la navegación del robot en el mundo simulado.
 
-<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-56-29.png" alt="S6">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 18.</strong> Simulación gazebo mundo simulado</p>
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-55-14.png" alt="S5">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 17.</strong> Rviz mundo simulado</p>
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-41-50.png" alt="S1">
