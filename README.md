@@ -27,3 +27,11 @@
 <br>
 ![](https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/Tapa_I.PNG)
 **Figura 9.** Tapa lateral del robot
+
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/Acople_Motor_II.PNG" alt="Acoples">
+<p style="margin-top:10px;"><strong>Figura 1.</strong> Acoples</p>
+<br>
+
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/Base%20-%20Copy.PNG" alt="Base, vista superior">
+<p style="margin-top:10px;"><strong>Figura 2.</strong> Base, vista superior</p>
+<br>
