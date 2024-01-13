@@ -110,8 +110,6 @@ Después de clonar el repositorio, regresa al directorio raíz de tu workspace y
 | Tornillos con Tuerca      | 64       |
 | Estructura del robot      | 6        |
 
-## Video 
-[![Video de ejemplo](http://img.youtube.com/vi/p27skgkG13g/0.jpg)](http://www.youtube.com/watch?v=p27skgkG13g "Video de ejemplo")
 
 ## Simulación mundo real y mundo simulado
 
