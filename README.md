@@ -1,11 +1,11 @@
 # Plataforma robotica educativa para la implementacion de algoritmos relacionados a sistemas multi-robot mobiles 
 ## Diseño del robot en SolidWorks
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/Acople_Motor_II.PNG" alt="Acoples">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 1.</strong> Acoples</p>
+<p style="margin-top:20px; font-size: 16px;"><strong>Figura 1.</strong> Acoples</p>
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/Base%20-%20Copy.PNG" alt="Base, vista superior">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 2.</strong> Base, vista superior</p>
+<p style="margin-top:20px; font-size: 16px;"><strong>Figura 2.</strong> Base, vista superior</p>
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/Base_2.PNG" alt="Base isométrica, vista frontal, lateral">
