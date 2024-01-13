@@ -50,7 +50,7 @@
 
 ## Número de componentes
 
-| Componente                | Unidades |
+| **Componente**            | **Unidades**|
 |---------------------------|----------|
 | Rueda Mecanum             | 4        |
 | Motores                   | 4        |
