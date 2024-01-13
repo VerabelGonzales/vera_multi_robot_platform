@@ -44,6 +44,29 @@
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 11.</strong> Vista frontal del robot</p>
 <br>
 
+## Número de componentes
+
+| Componente                | Unidades |
+|---------------------------|----------|
+| Rueda Mecanum             | 12       |
+| Motores                   | 12       |
+| Puente H L298N            | 6        |
+| Sensor IR                 | 12       |
+| Pantalla OLED             | 3        |
+| Indicador Nivel de Batería| 3        |
+| Regulador XL4015          | 3        |
+| ESP32-WROOM 38 pines      | 3        |
+| Shield PCB para ESP32     | 3        |
+| Shield Carga de Batería 18650 | 3    |
+| Batería Lipo 3300 mAh     | 3        |
+| Batería Li-ion 5000 mAh   | 3        |
+| PCB Molex                 | 3        |
+| Tornillos con Tuerca      | 64       |
+| Filamento PLA             | 2        |
+| Impresion 3D              | 3        |
+| **TOTAL**                 | **-**    |
+
+
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Partes_Robot_3.png" alt="Tapa frontal del robot">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 12.</strong> Vista lateral del robot</p>
 <br>
