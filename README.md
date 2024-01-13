@@ -98,4 +98,4 @@
 <br>
 
 ## Video tiktok
-[![Video de ejemplo]([[https://ruta/a/la/imagen_de_previsualizacion.jpg](https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/triangulo_tiktok.png)](https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/triangulo_tiktok.png))](https://vm.tiktok.com/ZGe6F9UuE/ "Video de ejemplo")
+[![Video de ejemplo]([https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/triangulo_tiktok.png)](https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/triangulo_tiktok.png))](https://vm.tiktok.com/ZGe6F9UuE/ "Video de ejemplo")
