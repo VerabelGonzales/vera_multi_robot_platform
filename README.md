@@ -44,6 +44,10 @@
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 11.</strong> Vista frontal del robot</p>
 <br>
 
+<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Partes_Robot_3.png" alt="Tapa frontal del robot">
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 12.</strong> Vista lateral del robot</p>
+<br>
+
 ## Número de componentes
 
 | Componente                | Unidades |
@@ -61,13 +65,6 @@
 | Batería Lipo 3300 mAh     | 1        |
 | Batería Li-ion 5000 mAh   | 1        |
 | PCB Molex                 | 1        |
-| Tornillos con Tuerca      | 21.33    |
-| Filamento PLA             | 0.67     |
-| Impresion 3D              | 1        |
+| Tornillos con Tuerca      | 64       |
+| Estructura del robot      | 6        |
 | **TOTAL**                 | **-**    |
-
-
-
-<img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Partes_Robot_3.png" alt="Tapa frontal del robot">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 12.</strong> Vista lateral del robot</p>
-<br>
