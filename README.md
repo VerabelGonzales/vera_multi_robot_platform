@@ -122,11 +122,11 @@ Abre una terminal y ejecuta el siguiente comando para lanzar Gazebo con el mundo
 Esto abrirá Gazebo con el mundo virtual definido en el archivo vera_robots_world_sim.launch.
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-52-09.png" alt="S4">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 16.</strong> Simulación gazebo mundo simulado</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 13.</strong> Simulación gazebo mundo simulado</p>
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-56-29.png" alt="S6">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 18.</strong> Simulación gazebo mundo simulado</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 14.</strong> Simulación gazebo mundo simulado</p>
 <br>
 
 
@@ -138,7 +138,7 @@ En una nueva terminal, ejecuta el siguiente comando para iniciar el nodo de nave
 Con este comando, se lanzará RViz junto con los nodos necesarios para la navegación del robot en el mundo simulado.
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-55-14.png" alt="S5">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 17.</strong> Rviz mundo simulado</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 15.</strong> Rviz mundo simulado</p>
 <br>
 
 ### Lanzamiento de la Simulación en Gazebo del Mundo Real con ROS
@@ -152,11 +152,11 @@ roslaunch mrs_navigation_vera vera_robots_ros_world_sim.launch
 Este comando iniciará la simulación en ROS que representa un entorno del mundo real, tal como está definido en el archivo vera_robots_world_real.launch.
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-41-50.png" alt="S1">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 13.</strong> Simulación Gazebo mundo real</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 16.</strong> Simulación Gazebo mundo real</p>
 <br>
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-40-08.png" alt="S2">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 14.</strong> Simulación Gazebo mundo real vista superior</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 17.</strong> Simulación Gazebo mundo real vista superior</p>
 <br>
 
 #### Iniciar el Nodo de Navegación y RViz para el Mundo Real:
@@ -167,7 +167,7 @@ En una nueva terminal, ejecuta el siguiente comando para iniciar el nodo de nave
 Este comando lanzará RViz y los nodos de navegación necesarios para interactuar con el entorno simulado del mundo real.
 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Screenshot%20from%202024-01-13%2011-40-39.png" alt="S3">
-<p style="margin-top:10px; font-size: 16px;"><strong>Figura 15.</strong> Rviz mundo real vista superior</p>
+<p style="margin-top:10px; font-size: 16px;"><strong>Figura 18.</strong> Rviz mundo real vista superior</p>
 <br>
 
 ## Video tiktok
