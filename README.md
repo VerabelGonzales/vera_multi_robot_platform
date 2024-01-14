@@ -38,7 +38,7 @@ Después de clonar el repositorio, regresa al directorio raíz de tu workspace y
 
 ### Paso 6: Listo para Trabajar
 ¡Ya estás listo para comenzar a trabajar con la plataforma! Asegúrate de seguir cualquier instrucción adicional específica del repositorio para ejecutar o desarrollar el proyecto.
-## Diseño y partes del robot omnidireccional 
+## Diseño y Partes del Robot Omnidireccional 
 <img src="https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/Acople_Motor_II.PNG" alt="Acoples">
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 1.</strong> Acoples</p>
 <br>
@@ -87,7 +87,7 @@ Después de clonar el repositorio, regresa al directorio raíz de tu workspace y
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 12.</strong> Vista lateral del robot</p>
 <br>
 
-## Número de componentes
+## Componentes que Contiene el Robot
 
 | **Componente**            | **Unidades**|
 |---------------------------|----------|
@@ -108,7 +108,7 @@ Después de clonar el repositorio, regresa al directorio raíz de tu workspace y
 | Estructura del robot      | 6        |
 
 
-## Simulación mundo real y mundo simulado
+## Simulación Mundo Real y Mundo Simulado
 ### Lanzamiento de la Simulación en un Mundo Simulado con ROS y Gazebo
 Para iniciar la simulación del mundo virtual con los robots, sigue estos pasos:
 #### Paso 1: Lanzar la Simulación en Gazebo:
