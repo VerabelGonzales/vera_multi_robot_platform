@@ -11,7 +11,6 @@ Asegúrate de tener instalada la versión correcta de ROS en tu sistema. Para es
 Abre una terminal y ejecuta los siguientes comandos para crear tu workspace de ROS:
 ```
     $ cd ~/catkin_ws/src
-    $ git clone https://github.com/VerabelGonzales/vera_multi_robot_platform.git
     $ cd ..
     $ catkin_make
 ```
