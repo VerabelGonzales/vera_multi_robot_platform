@@ -1,6 +1,6 @@
 # Plataforma robotica educativa para la implementacion de algoritmos relacionados a sistemas multi-robot mobiles
 ## Configuración del Workspace en ROS para la plataforma 
-Para trabajar con el proyecto de robótica, necesitarás configurar un workspace en ROS y clonar este repositorio en tu máquina local. Sigue los pasos a continuación para configurarlo correctamente.
+Para trabajar con la plataforma, necesitarás configurar un workspace en ROS y clonar este repositorio en tu máquina local. Sigue los pasos a continuación para configurarlo correctamente.
 
 ### Paso 1: Instalar ROS
 
@@ -20,7 +20,6 @@ Agrega el workspace a tu entorno ROS para que se cargue automáticamente cada ve
 ```
   echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
   source ~/.bashrc
-
 ```
 
 ### Paso 4: Clonar el Repositorio
@@ -36,7 +35,6 @@ Después de clonar el repositorio, regresa al directorio raíz de tu workspace y
 ```
     cd ~/catkin_ws
     catkin_make
-
 ```
 
 ### Paso 6: Listo para Trabajar
