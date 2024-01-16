@@ -1,4 +1,4 @@
-# Plataforma robotica educativa para la implementacion de algoritmos relacionados a sistemas multi-robot mobiles
+# Plataforma Robotica Educativa Para la Implementacion de Algoritmos Relacionados a Sistemas Multi-Robot Mobiles
 ## Configuración del Workspace en ROS para la plataforma 
 Para trabajar con la plataforma, necesitarás configurar un workspace en ROS y clonar este repositorio en tu máquina local. Sigue los pasos a continuación para configurarlo correctamente.
 
