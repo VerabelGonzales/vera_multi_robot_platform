@@ -212,9 +212,6 @@ Este comando configura y lanza varios componentes clave para la navegación mult
 <p style="margin-top:10px; font-size: 16px;"><strong>Figura 20.</strong> Rviz mundo real de la plataforma</p>
 <br>
 
-
-## Video tiktok
-[![Video de ejemplo](https://github.com/VerabelGonzales/vera_multi_robot_platform/blob/main/images_robot_readme/triangulo_tiktok.png)](https://vm.tiktok.com/ZGe6F9UuE/ "Video de ejemplo")
 ## Ejercicios Nivel 1
 ## Ejercicios Nivel 2
 ### Coordinación Multi-Robot: Formación en Línea Diagonal con Tres Robots Omnidireccionales (Click en el video)
